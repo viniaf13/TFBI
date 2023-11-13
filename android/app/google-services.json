@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "81458761110",
+    "project_id": "tfbi-consumer-app-staging",
+    "storage_bucket": "tfbi-consumer-app-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81458761110:android:a209cc282530c7140fa1b7",
+        "android_client_info": {
+          "package_name": "com.txfbins.txfb1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81458761110-q9sjmddcgk8l5ptdk66cnvounptp58np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDewH-C_yalOH1LltSpXktg0zl7uR_enmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81458761110-q9sjmddcgk8l5ptdk66cnvounptp58np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "81458761110-m0tv0e85a66u9ius8ipr970lcdasuljd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.txfb-ins.txfb1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

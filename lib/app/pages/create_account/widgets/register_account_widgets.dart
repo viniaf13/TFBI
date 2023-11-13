@@ -1,0 +1,9 @@
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/confirm_email_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/confirm_password_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_account_button.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_email_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_member_number_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_password_criteria.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_password_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/register_policy_num_form_field.dart';
+export 'package:txfb_insurance_flutter/app/pages/create_account/widgets/terms_checkbox.dart';

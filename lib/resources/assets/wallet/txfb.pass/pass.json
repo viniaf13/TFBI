@@ -1,0 +1,109 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.app.txfb-insurance-flutter",
+  "serialNumber" : "8j23fm3",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "teamIdentifier" : "98LKJHDJPG",
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722
+    },
+    {
+      "longitude" : -122.03118,
+      "latitude" : 37.33182
+    }
+  ],
+  "organizationName" : "e.g. 'TFBI'",
+  "description" : "BANNER above card",
+  "logoText" : "Card TITLE",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(102, 178, 255)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "member",
+        "value" : "NAME or SUBTITLE"
+      },
+      {
+	     "key" : "member2",
+        "value" : "*Not displayed*"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "subtitle",
+        "label" : "TOP LEFT",
+        "value" : "Year Maker Model"
+      },
+      {
+        "key" : "subtitle2",
+        "label": "TOP RIGHT",
+        "value" : "date: 7/7/23",
+        "textAlignment" : "PKTextAlignmentRight"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "policy",
+        "label" : "BOTTOM LEFT",
+        "value" : "3986742211"
+      },
+      {
+        "key" : "vehicle",
+        "label" : "NOT PROOF OF COVERAGE",
+        "value" : "View Official ID Card in App",
+        "textAlignment" : "PKTextAlignmentRight"
+      }
+    ],
+    "otherFields" : [
+      {
+        "key" : "disclaimer",
+        "label" : "NOT OFFICIAL PROOF OF COVERAGE",
+        "value" : "View official ID card in app",
+        "textAlignment" : "PKTextAlignmentLeft"
+      }
+    ],
+    "backFields" : [
+      {
+        "numberStyle" : "PKNumberStyleSpellOut",
+        "label" : "spelled out",
+        "key" : "numberStyle",
+        "value" : 200
+      },
+      {
+        "label" : "in US dollars",
+        "key" : "currency",
+        "value" : 200,
+        "currencyCode" : "USD"
+      },
+      {
+        "dateStyle" : "PKDateStyleFull",
+        "label" : "full date",
+        "key" : "dateFull",
+        "value" : "1980-05-07T10:00-05:00"
+      },
+      {
+        "label" : "full time",
+        "key" : "timeFull",
+        "value" : "1980-05-07T10:00-05:00",
+        "timeStyle" : "PKDateStyleFull"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "short date and time",
+        "key" : "dateTime",
+        "value" : "1980-05-07T10:00-05:00",
+        "timeStyle" : "PKDateStyleShort"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "relative date",
+        "key" : "relStyle",
+        "value" : "2013-04-24T10:00-05:00",
+        "isRelative" : true
+      }
+    ]
+  }
+}

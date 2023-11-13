@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.txfbins.txfb1",
+            "sha256_cert_fingerprints": [
+                "EC:80:26:DD:A7:A5:42:D6:AF:BC:44:D4:46:DD:F1:02:BC:2C:0B:19:FF:27:48:17:44:3A:EB:E7:10:03:A3:A9"
+            ]
+        }
+    }
+]

@@ -1,0 +1,58 @@
+{
+  "origins": "www.txfb-ins.com",
+  "id": "3388000000022224929.pass_xxxx_47",
+  "classId": "3388000000022224929.class_xxxx_9",
+  "logo": {
+    "sourceUri": {
+      "uri": "https://www.txfb-ins.com/publishingimages/icons/icon-192.png"
+    },
+    "contentDescription": {
+      "defaultValue": {
+        "language": "en",
+        "value": "TFBI Logo"
+      }
+    }
+  },
+  "cardTitle": {
+    "defaultValue": {
+      "language": "en",
+      "value": "Card TITLE"
+    }
+  },
+  "subheader": {
+    "defaultValue": {
+      "language": "en",
+      "value": "Insured"
+    }
+  },
+  "header": {
+    "defaultValue": {
+      "language": "en",
+      "value": "Tom E. Customer"
+    }
+  },
+  "textModulesData": [
+    {
+      "id": "line1L",
+      "header": "VEHICLE",
+      "body": "Year Make Model"
+    },
+    {
+      "id": "line1R",
+      "header": "VALID THRU",
+      "body": "07/21/2023"
+    },
+    {
+      "id": "line2L",
+      "header": "POLICY NUMBER",
+      "body": "3986742211"
+    },
+    {
+      "id": "line2R",
+      "header": "NOT PROOF OF COVERAGE",
+      "body": "View Official ID Card in App"
+    }
+  ],
+  "hexBackgroundColor": "#ffffff"
+}
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>166025224845-tbmif1dp2frk4ujnsptv59stm40mjk22.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.166025224845-tbmif1dp2frk4ujnsptv59stm40mjk22</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCGL5Vh2BAxr8Zdw5GWF6FOBYhIKL4HhYc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>166025224845</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bottlerocketstudios.haven.pluginHavenExample</string>
+	<key>PROJECT_ID</key>
+	<string>haven-example-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>haven-example-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:166025224845:ios:e9ae417b28fbe99c3638c4</string>
+</dict>
+</plist>

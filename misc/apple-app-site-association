@@ -1,0 +1,18 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID": "98LKJHDJPG.com.txfb-ins.txfb1",
+                "paths": [
+                    "/policyholder/manage-account/password-reset",
+                    "/policyholder/manage-account/validate-email"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "98LKJHDJPG.com.txfb-ins.txfb1"
+        ]
+    }
+}

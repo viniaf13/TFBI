@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "166025224845",
+    "project_id": "haven-example-app",
+    "storage_bucket": "haven-example-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166025224845:android:686c227bfc49a48b3638c4",
+        "android_client_info": {
+          "package_name": "com.bottlerocketstudios.plugin_haven_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166025224845-t8fnnsolgh652gl1abgi2t7slabfcl70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxgzVYINxsyi0KHk9k4NCnYXo5PMbYevo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166025224845-t8fnnsolgh652gl1abgi2t7slabfcl70.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "166025224845-tbmif1dp2frk4ujnsptv59stm40mjk22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bottlerocketstudios.haven.pluginHavenExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

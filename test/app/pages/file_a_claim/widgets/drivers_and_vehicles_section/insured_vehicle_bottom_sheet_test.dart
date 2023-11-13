@@ -1,0 +1,51 @@
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:mocktail/mocktail.dart';
+import 'package:txfb_insurance_flutter/app/blocs/claims/submit_claim/submit_claim_bloc.dart';
+import 'package:txfb_insurance_flutter/app/pages/file_a_claim_forms/widgets/drivers_and_vehicles_section/insured_vehicle_bottom_sheet.dart';
+import 'package:txfb_insurance_flutter/resources/theme/theme.dart';
+
+import '../../../../../mocks/mock_submit_claim_bloc.dart';
+import '../../../../../widgets/tfb_widget_tester.dart';
+
+void main() {
+  late MockSubmitClaimBloc submitClaimBloc;
+
+  setUp(
+    () {
+      registerFallbackValue(SubmitClaimInitState());
+      submitClaimBloc = MockSubmitClaimBloc();
+      when(() => submitClaimBloc.state).thenReturn(
+        mockClaimFormInitSuccess,
+      );
+    },
+  );
+
+  testWidgets(
+    'Insured Vehicle Bottom Sheet, after selecting the option, should show the same vehicle as selected',
+    (tester) async {
+      final controller = TextEditingController();
+      await tester.pumpWidget(
+        TfbWidgetTester(
+          child: BlocProvider<SubmitClaimBloc>.value(
+            value: submitClaimBloc,
+            child: Scaffold(
+              body: InsuredVehicleBottomSheet(
+                onChanged: (_) {},
+                selectedValueController: controller,
+              ),
+            ),
+          ),
+        ),
+      );
+      await tester.tap(find.byType(TextFormField));
+      await tester.pumpAndSettle();
+      final widgetToTap = find.byType(TextButton).first;
+      await tester.ensureVisible(widgetToTap);
+      await tester.pumpAndSettle();
+      await tester.tap(widgetToTap);
+      await tester.pumpAndSettle();
+      expect(controller.text, 'Year Make Model');
+    },
+  );
+}

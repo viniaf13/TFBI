@@ -1,0 +1,57 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+/android/keystore.properties
+debug.keystore
+tfbi_keystore.jks
+tfbi_keystore.jks.base64.txt
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# XCode build outputs
+/build-output/
+
+# Remove unsupported platforms
+/web/
+/macos/
+/linux/
+/windows/
+/metrics/
